@@ -51,6 +51,15 @@ nav {
     margin: auto;
     text-align: center;
 }
+.classcontainer{
+    height: 470px;
+}
+.card{
+    height: 100%;
+}
+.card-img-top {
+    height: 192px;
+}
 [class*="underline"]{
     text-decoration: underline;
 }
