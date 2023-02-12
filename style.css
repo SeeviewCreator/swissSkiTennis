@@ -8,8 +8,8 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -39,7 +39,7 @@ nav {
 #content {
     overflow: auto;
     margin: auto;
-    width: 80%;
+    width: 90%;
 
 }
 
