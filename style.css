@@ -10,6 +10,7 @@ body {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    overflow-x: hidden;
 
 }
 
@@ -37,10 +38,13 @@ nav {
 }
 
 #content {
-    overflow: auto;
+    overflow-y: hidden;
     margin: auto;
     width: 90%;
 
+}
+.sliderImageHalle{
+    height: 485px;
 }
 
 #content.titleWrapper {
@@ -49,4 +53,19 @@ nav {
 }
 [class*="underline"]{
     text-decoration: underline;
+}
+
+@media (max-width: 576px){
+    .sliderImageHalle{
+        height: auto;
+    }
+    .img{
+        height: 140px;
+    }
+    .content{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
 }
