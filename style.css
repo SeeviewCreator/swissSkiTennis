@@ -8,10 +8,11 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
+
 #fade {
     height: 100%;
     width: 100%;
@@ -21,24 +22,31 @@ body {
     top: 0;
     left: 0;
 }
+
 #popupMail {
     position: absolute;
     top: 20%;
     overflow: auto;
 }
-nav{
+
+nav {
     position: sticky !important;
     top: 0;
     left: 0;
     z-index: 100;
 }
-#content{
+
+#content {
     overflow: auto;
     margin: auto;
-    width: 80%;
+    width: 90%;
 
 }
+
 #content.titleWrapper {
     margin: auto;
     text-align: center;
+}
+[class*="underline"]{
+    text-decoration: underline;
 }

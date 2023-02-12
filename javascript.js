@@ -5,7 +5,9 @@ window.onload = function(){
 }
 var zaehler = 0;
 function popupMail() {
+    debugger;
     if (zaehler == 0){
+        $('html,body').scrollTop(0);
         document.getElementById("fade").style.display = "block";
         document.getElementById("popupMail").style.display = "block";
         document.getElementById("body").style.overflow = "hidden";
