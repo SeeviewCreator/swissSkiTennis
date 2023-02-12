@@ -60,7 +60,7 @@ nav {
         height: auto;
     }
     .img{
-        height: 140px;
+        height: 140px !important;
     }
     .content{
         width: 100%;
