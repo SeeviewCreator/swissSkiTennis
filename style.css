@@ -75,6 +75,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 #carouselSponsors .carousel-inner .carousel-item .useHeight{
@@ -82,14 +83,18 @@ nav {
 
 }
 #carouselSponsors .carousel-inner .carousel-item .useHeight a{
-    margin-left: 50px;
     height: 100%;
 }
 #carouselSponsors .carousel-inner .carousel-item .useHeight .img{
     height: 100% !important;
     width: auto !important;
 }
-
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 @media (max-width: 576px){
     .sliderImageHalle{
         height: auto;
@@ -102,5 +107,12 @@ nav {
     }
     .card{
         margin-bottom: 15px;
+    }
+    #carouselSponsors .carousel-inner .carousel-item .useHeight .img{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #carouselSponsors .carousel-inner .carousel-item .useHeight a{
+        height: auto;
     }
 }
