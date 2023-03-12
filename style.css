@@ -57,24 +57,64 @@ nav {
 .card{
     height: 100%;
 }
+.cardcontainer{
+    margin-bottom: 10px;
+}
 .card-img-top {
     height: 192px;
 }
 [class*="underline"]{
     text-decoration: underline;
 }
+#carouselSponsors .carousel-inner{
+    height: 200px;
+    max-height: 200%;
+}
+#carouselSponsors .carousel-inner .carousel-item{
+    height: 100%;
+    width: auto;
+}
+#carouselSponsors .carousel-inner .carousel-item > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#carouselSponsors .carousel-inner .carousel-item > div > a{
+    width: 100%;
+}
+#carouselSponsors .carousel-inner .carousel-item .useHeight{
+    height: 100%;
 
+}
+#carouselSponsors .carousel-inner .carousel-item .useHeight a{
+    height: 100%;
+    width: auto !important;
+}
+#carouselSponsors .carousel-inner .carousel-item .useHeight .img{
+    height: 100% !important;
+    width: auto !important;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 @media (max-width: 576px){
     .sliderImageHalle{
         height: auto;
-    }
-    .img{
-        height: 140px !important;
     }
     .content{
         width: 100%;
     }
     .card{
         margin-bottom: 15px;
+    }
+    #carouselSponsors .carousel-inner .carousel-item .useHeight .img{
+        width: 100% !important;
+    }
+    #carouselSponsors .carousel-inner .carousel-item .useHeight a{
+        height: auto;
     }
 }
