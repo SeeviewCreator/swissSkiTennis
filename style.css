@@ -63,6 +63,32 @@ nav {
 [class*="underline"]{
     text-decoration: underline;
 }
+.carousel-inner{
+    height: 200px;
+    max-height: 200%;
+}
+.carousel-inner .carousel-item{
+    height: 100%;
+    width: auto;
+}
+.carousel-inner .carousel-item > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item .useHeight{
+    height: 100%;
+
+}
+.carousel-inner .carousel-item .useHeight a{
+    margin-left: 50px;
+    height: 100%;
+}
+.carousel-inner .carousel-item .useHeight .img{
+    height: 100% !important;
+    width: auto !important;
+}
 
 @media (max-width: 576px){
     .sliderImageHalle{
